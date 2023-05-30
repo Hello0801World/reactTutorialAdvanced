@@ -26,7 +26,6 @@ const MultipleReturns = () => {
       }); 
   }, []);
   
-
   if (isLoading) {
     return (
     <div>
