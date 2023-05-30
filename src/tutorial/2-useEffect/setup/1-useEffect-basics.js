@@ -13,7 +13,7 @@ const UseEffectBasics = () => {
       document.title= `New message ${value}`;
   }
 }, [value]); // array is a list of dependencies
-// only invokes when it renders if it has a second parameter in useEffect
+// only invokes when it renders if it has an empty second parameter in useEffect
 // when second parameter has some value in array, whenever something happens for a second parameter
 // useEffect invokes
 
