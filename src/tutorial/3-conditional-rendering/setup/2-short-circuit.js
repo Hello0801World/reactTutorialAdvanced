@@ -18,6 +18,12 @@ const ShortCircuit = () => {
       }} style={{marginBottom:'3rem'}}>toggle error</button>
 
       {error && <h1>Error... </h1>}
+      {error ? (<p>there is an error</p> 
+      ): (
+        <div>
+          <h2>there is not error</h2>
+        </div>
+      )} 
     </>
   );
 };
