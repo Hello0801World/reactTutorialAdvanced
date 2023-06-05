@@ -1,12 +1,12 @@
 import React from 'react'
-import Setup from './tutorial/10-prop-types/setup/index'
+import Setup from './tutorial/11-react-router/setup'
 
-import Final from './tutorial/1-useState/final/3-useState-array'
+import Final from './tutorial/11-react-router/final'
 
 function App() {
   return (
     <div className='container'>
-      <Setup />
+     <Setup />
     </div>
   );
 }
